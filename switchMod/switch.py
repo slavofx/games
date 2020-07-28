@@ -6,8 +6,8 @@ import re
 # 读取文件所在路径
 # py 文件是os.path.dirname(__file__)
 # exe 文件是os.getcwd()
-currentPath = os.path.dirname(__file__)
-#currentPath = os.getcwd() 
+#currentPath = os.path.dirname(__file__)
+currentPath = os.getcwd() 
 # 文件夹数据文件路径
 foldersDataPath = os.path.join(currentPath, "switch.dat")
 # 默认的文件名
